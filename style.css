@@ -1,0 +1,17 @@
+body{
+    --accent-color: orangered;
+    --background-color: white;
+    --text-color: black;
+    --button-text-color: white;
+    --transition-delay: 1s;
+
+
+
+
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
