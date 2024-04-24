@@ -70,16 +70,18 @@ body.dark{
     transition: transform var(--transition-delay);
 }
 
+
 .sun, .moon{
     position: absolute;
     transition: opacity, fill, var(--transition-delay);
     width: 30px;
     height: 30px;
-    fill: var(--accent-color)
+    fill: var(--accent-color);
 }
 
 .sun{
 top: 5%;
+opacity: 1;
 }
 
 .dark .sun{
