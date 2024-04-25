@@ -59,6 +59,7 @@ body.dark{
 }
 
 .content{
+    --rotation: 180;
     position: absolute;
     pointer-events: none;
     display: flex;
@@ -90,7 +91,7 @@ opacity: 1;
 
 .moon{
 bottom: 5%;
-opacity: 0;
+opacity: 1;
 transform: rotate(180deg);
 }
 
