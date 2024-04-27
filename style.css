@@ -29,9 +29,23 @@ body.dark{
     --text-color: white;
 }
 
+.header{
+
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 1rem 17rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    outline: 3px solid white;
+}
+.headerAlt{
+    outline: 3px solid black;
+}
+
 .title{
-    margin: 0;
-    margin-bottom: .5rem;
+    margin: 0 0 .5rem 7rem;
 }
 
 .theme-toggle-button{
@@ -43,6 +57,7 @@ body.dark{
     align-items: center;
     cursor: pointer;
     padding: .5em 1em;
+    margin: 0 7rem .5rem 0;
     border-radius: .3em;
     border: none;
     outline: none;
@@ -63,10 +78,11 @@ body.dark{
     position: absolute;
     pointer-events: none;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 0;
-    height: 200vmin;
+    /* justify-content: center; */
+    /* align-items: center; */
+    top: 50%;
+    height: 50vmin;
+    width: 50vmin;
     transform: rotate(calc(var(--rotation) * 1deg));
     transition: transform var(--transition-delay);
 }
@@ -91,7 +107,7 @@ opacity: 1;
 
 .moon{
 bottom: 5%;
-opacity: 1;
+opacity: 0;
 transform: rotate(180deg);
 }
 
